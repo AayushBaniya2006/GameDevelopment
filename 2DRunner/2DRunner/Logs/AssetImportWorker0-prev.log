@@ -1,0 +1,388 @@
+Unity Editor version:    2021.3.25f1 (68ef2c4f8861)
+Branch:                  2021.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 13.2.1 (Build 22D68)
+Darwin version:          22.3.0
+Architecture:            arm64
+Running under Rosetta:   NO
+Available memory:        8192 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/aayushbaniya/Downloads/GitHub/GameDevelopment/2DRunner/2DRunner
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+55582
+Successfully changed project path to: /Users/aayushbaniya/Downloads/GitHub/GameDevelopment/2DRunner/2DRunner
+/Users/aayushbaniya/Downloads/GitHub/GameDevelopment/2DRunner/2DRunner
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [8608825664] Host "[IP] 192.168.1.237 [Port] 0 [Flags] 2 [Guid] 3816123148 [EditorId] 3816123148 [Version] 1048832 [Id] OSXEditor(0,Aayushs-MBP.attlocal.net) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [8608825664] Host "[IP] 192.168.1.237 [Port] 0 [Flags] 2 [Guid] 3816123148 [EditorId] 3816123148 [Version] 1048832 [Id] OSXEditor(0,Aayushs-MBP.attlocal.net) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 108.26 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.25f1 (68ef2c4f8861)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/aayushbaniya/Downloads/GitHub/GameDevelopment/2DRunner/2DRunner/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+ preferred device: Apple M1 (high power)
+Metal devices available: 1
+0: Apple M1 (high power)
+Using device Apple M1 (high power)
+Initializing Metal device caps: Apple M1
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56861
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.25f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.25f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.25f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Registered in 0.002156 seconds.
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+[usbmuxd] Send listen message
+Native extension for iOS target not found
+2023-05-26 11:40:23.971 Unity[31861:2981733] [XcodeApplications] Expected com.apple.dt.Xcode CFBundleIdentifier but found com.microsoft.VSCode in /Users/aayushbaniya/Downloads/Visual Studio Code.app/Contents/Info.plist
+Native extension for Android target not found
+Unable to list connected devices. 
+* daemon not running; starting now at tcp:5037
+ADB server didn't ACK
+Full server startup log: /var/folders/3_/7h951s352sd0mfdr73zg1bxw0000gn/T//adb.501.log
+Server had pid: 31880
+--- adb starting (pid 31880) ---
+--- adb starting (pid 31881) ---
+adb I 05-26 11:40:24 31881 2981958 main.cpp:62] Android Debug Bridge version 1.0.41
+adb I 05-26 11:40:24 31881 2981958 main.cpp:62] Version 30.0.4-6686687
+adb I 05-26 11:40:24 31881 2981958 main.cpp:62] Installed as /Applications/Unity/Hub/Editor/2021.3.25f1/PlaybackEngines/AndroidPlayer/SDK/platform-tools/adb
+adb I 05-26 11:40:24 31881 2981958 main.cpp:62] 
+adb I 05-26 11:40:24 31880 2981957 main.cpp:62] Android Debug Bridge version 1.0.41
+adb I 05-26 11:40:24 31880 2981957 main.cpp:62] Version 30.0.4-6686687
+adb I 05-26 11:40:24 31880 2981957 main.cpp:62] Installed as /Applications/Unity/Hub/Editor/2021.3.25f1/PlaybackEngines/AndroidPlayer/SDK/platform-tools/adb
+adb I 05-26 11:40:24 31880 2981957 main.cpp:62] 
+adb E 05-26 11:40:24 31881 2981966 usb_osx.cpp:161] Unable to create an interface plug-in (e00002be)
+adb E 05-26 11:40:24 31880 2981967 usb_osx.cpp:161] Unable to create an interface plug-in (e00002be)
+adb I 05-26 11:40:24 31881 2981958 auth.cpp:417] adb_auth_init...
+adb I 05-26 11:40:24 31881 2981958 auth.cpp:152] loaded new key from '/Users/aayushbaniya/.android/adbkey' with fingerprint 677318A34E96B3BB2D4CFDC48A0B9D5A6C2238E265E334A86521332308F7EEF2
+adb F 05-26 11:40:24 31880 2981957 main.cpp:153] could not install *smartsocket* listener: Address already in use
+
+* failed to start daemon
+adb: failed to check server version: cannot connect to daemon
+
+UnityEditor.Android.CommandInvokationFailure: Unable to list connected devices. 
+/Applications/Unity/Hub/Editor/2021.3.25f1/PlaybackEngines/AndroidPlayer/SDK/platform-tools/adb devices
+
+Environment Variables:
+LAUNCH_DARKLY_CLIENT_TOKEN_STAGING = 60a7e30fafc7e60e33446282
+XPC_SERVICE_NAME = application.com.unity3d.unityhub.48335013.48335967.823C604A-9AC6-4B88-8B4B-F020A9C5C922
+WOOTRIC_CLIENT_TOKEN = NPS-aa8be4c3
+XPC_FLAGS = 0x0
+DEBUG_ENV_VAR = UnityHub
+HEAP_CLIENT_TOKEN_STAGING = 3786794399
+MallocNanoZone = 0
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+SHELL = /bin/zsh
+SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.G642dWOBmt/Listeners
+PATH = /usr/bin:/bin:/usr/sbin:/sbin
+__CFBundleIdentifier = com.unity3d.unityhub
+AMPLITUDE_API_KEY_STAGING = 83ee04fccc67e4fcc7dd527c4c6f1e21
+AMPLITUDE_API_KEY = 28f3cae0b33b8b3702120c9ed1a935aa
+HOME = /Users/aayushbaniya
+USER = aayushbaniya
+LAUNCH_DARKLY_CLIENT_TOKEN = 60a7e30fafc7e60e33446283
+__CF_USER_TEXT_ENCODING = 0x1F5:0x0:0x0
+HEAP_CLIENT_TOKEN = 1717415662
+TMPDIR = /var/folders/3_/7h951s352sd0mfdr73zg1bxw0000gn/T/
+LOGNAME = aayushbaniya
+SENTRY_ACCESS_TOKEN = 3df78d9e53f8456aa90fbae044ce1a6261421ab1d0014674bc2e933477289017
+JAVA_TOOL_OPTIONS = -Dfile.encoding=UTF-8
+COMMAND_MODE = unix2003
+
+
+stderr[
+* daemon not running; starting now at tcp:5037
+ADB server didn't ACK
+Full server startup log: /var/folders/3_/7h951s352sd0mfdr73zg1bxw0000gn/T//adb.501.log
+Server had pid: 31880
+--- adb starting (pid 31880) ---
+--- adb starting (pid 31881) ---
+adb I 05-26 11:40:24 31881 2981958 main.cpp:62] Android Debug Bridge version 1.0.41
+adb I 05-26 11:40:24 31881 2981958 main.cpp:62] Version 30.0.4-6686687
+adb I 05-26 11:40:24 31881 2981958 main.cpp:62] Installed as /Applications/Unity/Hub/Editor/2021.3.25f1/PlaybackEngines/AndroidPlayer/SDK/platform-tools/adb
+adb I 05-26 11:40:24 31881 2981958 main.cpp:62] 
+adb I 05-26 11:40:24 31880 2981957 main.cpp:62] Android Debug Bridge version 1.0.41
+adb I 05-26 11:40:24 31880 2981957 main.cpp:62] Version 30.0.4-6686687
+adb I 05-26 11:40:24 31880 2981957 main.cpp:62] Installed as /Applications/Unity/Hub/Editor/2021.3.25f1/PlaybackEngines/AndroidPlayer/SDK/platform-tools/adb
+adb I 05-26 11:40:24 31880 2981957 main.cpp:62] 
+adb E 05-26 11:40:24 31881 2981966 usb_osx.cpp:161] Unable to create an interface plug-in (e00002be)
+adb E 05-26 11:40:24 31880 2981967 usb_osx.cpp:161] Unable to create an interface plug-in (e00002be)
+adb I 05-26 11:40:24 31881 2981958 auth.cpp:417] adb_auth_init...
+adb I 05-26 11:40:24 31881 2981958 auth.cpp:152] loaded new key from '/Users/aayushbaniya/.android/adbkey' with fingerprint 677318A34E96B3BB2D4CFDC48A0B9D5A6C2238E265E334A86521332308F7EEF2
+adb F 05-26 11:40:24 31880 2981957 main.cpp:153] could not install *smartsocket* listener: Address already in use
+
+* failed to start daemon
+adb: failed to check server version: cannot connect to daemon
+]
+stdout[
+
+]
+exit code: 1
+  at UnityEditor.Android.Command.WaitForProgramToRun (UnityEditor.Utils.Program p, UnityEditor.Android.Command+WaitingForProcessToExit waitingForProcessToExit, System.String errorMsg) [0x00033] in <c8df8c387877487dae452aacc833e6ce>:0 
+  at UnityEditor.Android.Command.Run (System.Diagnostics.ProcessStartInfo psi, UnityEditor.Android.Command+WaitingForProcessToExit waitingForProcessToExit, System.String errorMsg) [0x0002d] in <c8df8c387877487dae452aacc833e6ce>:0 
+  at UnityEditor.Android.Command.Run (System.String command, System.String args, System.String workingdir, UnityEditor.Android.Command+WaitingForProcessToExit waitingForProcessToExit, System.String errorMsg) [0x0000a] in <c8df8c387877487dae452aacc833e6ce>:0 
+  at UnityEditor.Android.ADB.RunInternal (System.String[] command, UnityEditor.Android.Command+WaitingForProcessToExit waitingForProcessToExit, System.String errorMsg) [0x0001e] in <c8df8c387877487dae452aacc833e6ce>:0 
+  at UnityEditor.Android.ADB.Run (System.String[] command, UnityEditor.Android.Command+WaitingForProcessToExit waitingForProcessToExit, System.String errorMsg) [0x00013] in <c8df8c387877487dae452aacc833e6ce>:0 
+  at UnityEditor.Android.AndroidDeploymentTargetsExtension.GetKnownTargets (UnityEditor.DeploymentTargets.IDeploymentTargetsMainThreadContext context, UnityEditor.ProgressHandler progressHandler) [0x00284] in <c8df8c387877487dae452aacc833e6ce>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+UnityEditor.Android.AndroidDeploymentTargetsExtension:GetKnownTargets (UnityEditor.DeploymentTargets.IDeploymentTargetsMainThreadContext,UnityEditor.ProgressHandler)
+UnityEditor.Android.TargetScanWorker:ScanSync ()
+UnityEditor.Android.TargetExtension:OnUsbDevicesChanged (UnityEditor.Hardware.UsbDevice[])
+UnityEditor.Android.TargetExtension:OnLoad ()
+UnityEditor.Modules.ModuleManager:InitializePlatformSupportModules () (at /Users/bokken/build/output/unity/unity/Editor/Mono/Modules/ModuleManager.cs:147)
+
+(Filename: /Users/bokken/build/output/unity/unity/Editor/Mono/Modules/ModuleManager.cs Line: 147)
+
+Android Extension - Scanning For ADB Devices 764 ms
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 100.42 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.318 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1318ms)
+		BeginReloadAssembly (46ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (0ms)
+		EndReloadAssembly (1213ms)
+			LoadAssemblies (45ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (82ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (19ms)
+			SetupLoadedEditorAssemblies (1083ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (911ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (100ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (47ms)
+				ProcessInitializeOnLoadMethodAttributes (24ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001713 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/aayushbaniya/Downloads/GitHub/GameDevelopment/2DRunner/2DRunner/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/aayushbaniya/Downloads/GitHub/GameDevelopment/2DRunner/2DRunner/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for iOS target not found
+2023-05-26 11:40:26.461 Unity[31861:2981733] [XcodeApplications] Expected com.apple.dt.Xcode CFBundleIdentifier but found com.microsoft.VSCode in /Users/aayushbaniya/Downloads/Visual Studio Code.app/Contents/Info.plist
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 102.96 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.953 seconds
+Domain Reload Profiling:
+	ReloadAssembly (953ms)
+		BeginReloadAssembly (84ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (800ms)
+			LoadAssemblies (54ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (208ms)
+			ReleaseScriptCaches (4ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (441ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (26ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (103ms)
+				BeforeProcessingInitializeOnLoad (77ms)
+				ProcessInitializeOnLoadAttributes (193ms)
+				ProcessInitializeOnLoadMethodAttributes (42ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 1.17 seconds
+Refreshing native plugins compatible for Editor in 0.93 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5339 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 45 unused Assets / (1.0 MB). Loaded Objects now: 5782.
+Memory consumption went from 210.5 MB to 209.5 MB.
+Total: 7.648458 ms (FindLiveObjects: 0.352584 ms CreateObjectMapping: 0.106291 ms MarkObjects: 6.504792 ms  DeleteObjects: 0.681500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 220554.401019 seconds.
+  path: Assets/InputSystem.inputsettings.asset
+  artifactKey: Guid(7abe46dede6624a60a115c533b19a2a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/InputSystem.inputsettings.asset using Guid(7abe46dede6624a60a115c533b19a2a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e20278c4679dc8e19bf708cb774926ce') in 0.719496 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 426.295651 seconds.
+  path: Assets/Shared/Scenes/Boot.unity
+  artifactKey: Guid(c08c9c64ef12d4b4b8d662c37aa3afab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shared/Scenes/Boot.unity using Guid(c08c9c64ef12d4b4b8d662c37aa3afab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '236357dab8b9d4fec10732a2d1771a51') in 0.005201 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001628 seconds.
+Begin MonoManager ReloadAssembly
+Thread 0x2b0b87000 may have been prematurely finalized
+Symbol file LoadedFromMemory doesn't match image /Users/aayushbaniya/Downloads/GitHub/GameDevelopment/2DRunner/2DRunner/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/aayushbaniya/Downloads/GitHub/GameDevelopment/2DRunner/2DRunner/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for iOS target not found
+2023-05-26 11:47:47.876 Unity[31861:2981733] [XcodeApplications] Expected com.apple.dt.Xcode CFBundleIdentifier but found com.microsoft.VSCode in /Users/aayushbaniya/Downloads/Visual Studio Code.app/Contents/Info.plist
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.67 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.770 seconds
+Domain Reload Profiling:
+	ReloadAssembly (771ms)
+		BeginReloadAssembly (148ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (72ms)
+		EndReloadAssembly (564ms)
+			LoadAssemblies (49ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (196ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (237ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (21ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (50ms)
+				ProcessInitializeOnLoadAttributes (121ms)
+				ProcessInitializeOnLoadMethodAttributes (43ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.13 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5211 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 36 unused Assets / (1.0 MB). Loaded Objects now: 5786.
+Memory consumption went from 204.6 MB to 203.7 MB.
+Total: 4.440375 ms (FindLiveObjects: 0.283334 ms CreateObjectMapping: 0.094291 ms MarkObjects: 3.100750 ms  DeleteObjects: 0.961000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 58.154167 seconds.
+  path: Assets/Runner/Environment/Levels/Level_000.asset
+  artifactKey: Guid(33ced907333634bffa860034de1f4df9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Runner/Environment/Levels/Level_000.asset using Guid(33ced907333634bffa860034de1f4df9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c775fc0b0bfd644112d227305b90c46') in 0.087463 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 21.462494 seconds.
+  path: Assets/Runner/Environment/Prefabs/Spawnables/Collectable_Coin.prefab
+  artifactKey: Guid(7a5b6c820c7fd4280a780ff9470a7d84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Runner/Environment/Prefabs/Spawnables/Collectable_Coin.prefab using Guid(7a5b6c820c7fd4280a780ff9470a7d84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '337762fb3c82cf75dc6cc0bb74d87ef0') in 0.641353 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000101 seconds.
+  path: Assets/Runner/Environment/Prefabs/Spawnables/Gate_SpeedIncrease.prefab
+  artifactKey: Guid(cb9ad7287b7794fe0b9822d3dc1c14da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Runner/Environment/Prefabs/Spawnables/Gate_SpeedIncrease.prefab using Guid(cb9ad7287b7794fe0b9822d3dc1c14da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8cd16c5aa6291f4ef448924b969c08d') in 0.147012 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Runner/Environment/Prefabs/Spawnables/Obstacle.prefab
+  artifactKey: Guid(be33d0e842eb84b2786dd46a6869b1ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Runner/Environment/Prefabs/Spawnables/Obstacle.prefab using Guid(be33d0e842eb84b2786dd46a6869b1ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c0e7ba6651e4739f74a365bcc883b0d') in 0.006666 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Runner/Environment/Prefabs/Spawnables/Gate_SpeedDecrease.prefab
+  artifactKey: Guid(5bd318a794a4f4540b17e0167e382731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Runner/Environment/Prefabs/Spawnables/Gate_SpeedDecrease.prefab using Guid(5bd318a794a4f4540b17e0167e382731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b7fa1ed3635f6d57432ce4ab9bb8c5c') in 0.021044 seconds 
