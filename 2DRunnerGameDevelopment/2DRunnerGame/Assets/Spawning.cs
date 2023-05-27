@@ -7,7 +7,7 @@ public class Spawning : MonoBehaviour
     public GameObject Image1;
     public GameObject Image2;
     private float timer = 0;
-    private int spawnRate = 1;
+    private float spawnRate = .5f;
 
     void Start()
     {
@@ -28,15 +28,13 @@ public class Spawning : MonoBehaviour
 
     void spawnFlooring()
     {
-        System.Random rnd = new System.Random();
-        int decider = rnd.Next(1, 3);
-        if (decider == 1)
-        {
-            Instantiate(Image1, transform.position, transform.rotation);
+       int holder = UnityEngine.Random.Range(1, 3);
+
+        if(holder == 1){
+            Instantiate(Image1, new Vector3(transform.position.x,transform.position.y, 0), transform.rotation);
         }
-        else
-        {
-            Instantiate(Image2, transform.position, transform.rotation);
-        }
+       else{
+           Instantiate(Image2, new Vector3(transform.position.x,transform.position.y, 0), transform.rotation);
+         }
     }
 }

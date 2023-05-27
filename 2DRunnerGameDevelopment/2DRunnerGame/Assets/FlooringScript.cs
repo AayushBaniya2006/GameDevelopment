@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class FlooringScript : MonoBehaviour
 {
-    private int deadZone = -82;
+    private int deadZone = -120;
     // Start is called before the first frame update
     void Start()
     {
