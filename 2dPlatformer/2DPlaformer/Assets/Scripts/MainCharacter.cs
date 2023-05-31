@@ -1,18 +1,30 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class MainCharacter : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public InputMaster controls;
+
+    void Awake()
     {
-        
+        controls = new InputMaster();
+        controls.Player.Move.performed += ctx => Move();
     }
 
-    // Update is called once per frame
-    void Update()
+    void Move()
     {
-        
+        Debug.Log("Move");
+    }
+
+    private void OnEnable()
+    {
+        controls.Enable();
+    }
+
+    private void OnDisable()
+    {
+        controls.Disable();
     }
 }
