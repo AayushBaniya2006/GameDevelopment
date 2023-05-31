@@ -16,6 +16,8 @@ Library/Bee/artifacts/mvdfrm/Unity.2D.Tilemap.Extras.Editor.ref.dll_258B0455F8F5
 Library/Bee/artifacts/mvdfrm/Unity.2D.Tilemap.Extras.ref.dll_DD9C61FBB7D63C03.mvfrm
 Library/Bee/artifacts/mvdfrm/Unity.Burst.Editor.ref.dll_EA1A6D1CB62C8BFD.mvfrm
 Library/Bee/artifacts/mvdfrm/Unity.Burst.ref.dll_A43E80D48102A6F4.mvfrm
+Library/Bee/artifacts/mvdfrm/Unity.InputSystem.InGameHints.ref.dll_6E3B9E51D2BD7824.mvfrm
+Library/Bee/artifacts/mvdfrm/Unity.InputSystem.Recorder.ref.dll_B5D4EDE210A833D5.mvfrm
 Library/Bee/artifacts/mvdfrm/Unity.InputSystem.ref.dll_62EC740DD3AB3A8D.mvfrm
 Library/Bee/artifacts/mvdfrm/Unity.InternalAPIEditorBridge.001.ref.dll_D33AAA747FCEED0A.mvfrm
 Library/Bee/artifacts/mvdfrm/Unity.InternalAPIEngineBridge.001.ref.dll_C5B5631EE4DDD44F.mvfrm
@@ -38,6 +40,7 @@ Library/Bee/artifacts/mvdfrm/Unity.VisualScripting.State.Editor.ref.dll_BC6ADFF9
 Library/Bee/artifacts/mvdfrm/Unity.VisualScripting.State.ref.dll_697AC546F729FDEE.mvfrm
 Library/Bee/artifacts/mvdfrm/Unity.VisualStudio.Editor.ref.dll_F37C0F1BA2EC04B9.mvfrm
 Library/Bee/artifacts/mvdfrm/UnityEditor.UI.ref.dll_BD0E97F52A0DF729.mvfrm
+Library/Bee/artifacts/mvdfrm/UnityEngine.InputSystem.Samples.UIvsGameInput.ref.dll_F673CF9E46834E73.mvfrm
 Library/Bee/artifacts/mvdfrm/UnityEngine.UI.ref.dll_79746E5030301F94.mvfrm
 Library/Bee/artifacts/mvdfrm/Unity.Android.Gradle.dll_BC1B4304682A87A3.mvfrm
 Library/Bee/artifacts/mvdfrm/Unity.Android.Types.dll_336450E217C81949.mvfrm
